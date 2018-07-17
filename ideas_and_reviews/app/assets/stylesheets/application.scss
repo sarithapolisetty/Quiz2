@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+  @import "bootstrap";
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxUe3wE-GEToUNK2qM7LuzNU1pkJHOglsot8dEuoslOCtbJ065Jg");
+}
+.row{
+    padding: 50px;
+    background-color:lightlategrey;
+}
+.new_idea{
+    padding: 10px;
+    margin: 10px;
+}
+
+.show{
+    padding: 30px;
+}
+.new_user{
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+h1{
+    text-align: center;
+    color:lightcoral;
+}
+

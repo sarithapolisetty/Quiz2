@@ -1,0 +1,16 @@
+<h1>Edit Ideas </h1>
+<div class="mx-3">
+<%= form_for(@idea) do |f| %>
+    <div>
+        <%= f.label(:title) %>
+        <%= f.text_field :title, class: "form-control mb-3"%>
+    </div>
+
+    <div>
+        <%= f.label(:description) %>
+        <%= f.text_area :description, class: "form-control mb-3"%>
+    </div>
+
+    <%= f.submit class: "btn btn-outline-primary" %>
+<% end %>
+</div>
